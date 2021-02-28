@@ -1,13 +1,19 @@
+
+
 #include <iostream>
 #include <conio.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <math.h>
 
+/* Author = uchiha obITo */
+/* Team = Swat Fighter Xploit*/
+
 using namespace std;
 
 
 int main(){
+
 	
     float A = 0, B = 0;
     float i = 0, j = 0;
@@ -16,6 +22,9 @@ int main(){
     char b[1760];
     printf("\x1b[2J");
     for(;;) {
+      cout<<"_____________"
+          <<" TOBI'S DONUT"
+          <<"______________";
         memset(b,32,1760);
         memset(z,0,7040);
         for(j=0; j <= 6.28; j += 0.07) {
